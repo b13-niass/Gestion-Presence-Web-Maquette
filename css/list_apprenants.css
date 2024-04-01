@@ -36,9 +36,9 @@ body {
   /* align-items: center; */
   /* justify-content: center; */
   column-gap: 20px;
-  padding-right: 1.5%;
+  /* padding-right: 1.5%; */
 }
 
 div {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
