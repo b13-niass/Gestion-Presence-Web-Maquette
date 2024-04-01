@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/list_presences.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f454128a6e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Référentiel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo"></div>
+        <div>Menu</div>
+        <div class="menu-vertical">
+          <div class="menu-item">
+            <a href="./dashboard.html">
+              <i class="dash-icon"></i>
+              Dashboard
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./list_promos.html">
+              <i class="promo-icon"></i>
+              Promos
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./list_referentiels.html">
+              <i class="ref-icon"></i>
+              Réferentiels
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="#">
+              <i class="user-icon"></i>
+              Utilisateurs
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./visiteurs.html">
+              <i class="visit-icon"></i>
+              Visiteurs
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./list_presences.html">
+              <i class="presence-icon"></i>
+              Presence
+            </a>
+          </div>
+          <div class="menu-item">
+            <a href="./evenements.html">
+              <i class="event-icon"></i>
+              Evénements
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="menu-horizontal">
+          <div class="burger-toggle">
+            <i class=""></i>
+            <input
+              type="checkbox"
+              class="cb"
+              name="checkbox-burger"
+              id="checkbox-burger"
+            />
+          </div>
+          <div class="mh-icon">
+            <i class="icon-menu"></i>
+          </div>
+          <div class="mh-search-bar">
+            <input
+              type="text"
+              name="search"
+              placeholder="Rechercher par matricule"
+              id=""
+            />
+          </div>
+
+          <div class="mh-date">
+            <i class="fa-regular fa-calendar"></i>20 March 2024
+          </div>
+          <div class="mh-profil">
+            <div class="photo-profil"></div>
+            <div class="profil">
+              <div class="profil-role">SUPER ADMIN</div>
+              <div class="profil-name">
+                Admin Admin
+                <i class="fa fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-middle">
+          <div class="breadcrumbs">
+            <span>Presence</span>
+            <div>
+              <span>Presence ></span>
+              <span>Liste</span>
+            </div>
+          </div>
+          <div class="content">
+            <div class="tableau">
+              <div class="tableau-titre">
+                <select class="statut">
+                  <option value="" selected>Statut</option>
+                </select>
+                <select class="referentiels">
+                  <option value="" selected>Referentiels</option>
+                </select>
+                <input type="date" class="date" name="" id="" />
+                <button type="submit">Rafraichir</button>
+              </div>
+              <div class="tableau-head">
+                <div class="row">
+                  <div class="col">Matricule</div>
+                  <div class="col">Nom</div>
+                  <div class="col">Prénom</div>
+                  <div class="col">Téléphone</div>
+                  <div class="col">Référentiel</div>
+                  <div class="col">Heure D'activité</div>
+                  <div class="col">Status</div>
+                </div>
+              </div>
+              <div class="tableau-body">
+                <div class="row">
+                  <div class="col">P6_DEVDAT_2024_129</div>
+                  <div class="col">Faye</div>
+                  <div class="col">Ibrahima</div>
+                  <div class="col">774444444</div>
+                  <div class="col">Développement Data</div>
+                  <div class="col"><span class="a_l_heure">06:49</span></div>
+                  <div class="col"><span class="present">Présent</span></div>
+                </div>
+                <div class="row">
+                  <div class="col">P6_REFDIG_2024_130</div>
+                  <div class="col">Khadim</div>
+                  <div class="col">Deme</div>
+                  <div class="col">774444444</div>
+                  <div class="col">Développement Data</div>
+                  <div class="col"><span class="en_retard">06:49</span></div>
+                  <div class="col"><span class="absent">Présent</span></div>
+                </div>
+              </div>
+              <div class="tableau-footer">
+                <div class="per-page">
+                  <span>Items per page</span>
+                  <select name="per-page" id="">
+                    <option value="" selected>10</option>
+                  </select>
+                </div>
+                <div class="pagination">
+                  <span>1 - 1 of 1</span>
+                  <div class="pagination-right">
+                    <a href="#" class="pagination-link first-page"
+                      >|<i class="fa-solid fa-chevron-left"></i
+                    ></a>
+                    <a href="#" class="pagination-link previous"
+                      ><i class="fa-solid fa-chevron-left"></i
+                    ></a>
+                    <span class="pagination-numbers"> </span>
+                    <a href="#" class="pagination-link next"
+                      ><i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                    <a href="#" class="pagination-link last-page"
+                      ><i class="fa-solid fa-chevron-right"></i>|</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span>&copy; Sonatel Academy</span>
+          <i class="fa-solid fa-gear"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
